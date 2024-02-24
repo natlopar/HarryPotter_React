@@ -1,6 +1,6 @@
 # Buscador de personajes Harry Potter
 
-http://beta.adalab.es/modulo-3-evaluacion-final-natlopar/
+https://natlopar.github.io/HarryPotter_React/
 
 ![Buscador de personajes Harry Potter](./src/images/screenshotLaptop.png)
 

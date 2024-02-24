@@ -20,6 +20,7 @@ function App() {
   useEffect(() => {
     getApi(searchHouse).then((cleanData) => {
       setCharacters(cleanData);
+      local.remove('characters');
       local.set('characters', cleanData);
     });
   }, [searchHouse]);
@@ -69,7 +70,7 @@ function App() {
     setSearchName('');
     setSearchGender('All');
     setIsChecked(false);
-    local.remove('characters');
+   
   };
   return (
     <div className="bodyApp">
